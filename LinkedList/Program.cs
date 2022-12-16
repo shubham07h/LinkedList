@@ -6,9 +6,11 @@
         static void Main(string[] args)
         {
             Linkedlist list = new Linkedlist();
-            list.Addreverse(10);
-            list.Addreverse(20);
-            list.Addreverse(30);
+            list.Addnode(10);
+            list.Addnode(20);
+            list.Addnode(30);
+            list.Display();
+            list.Delete();
             list.Display();
 
 
