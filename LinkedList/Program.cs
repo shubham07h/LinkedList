@@ -5,11 +5,14 @@
 
         static void Main(string[] args)
         {
-            LinkedList list = new LinkedList();
-            list.Addnode(10);
-            list.Addnode(20);
-            list.Addnode(30);
+            Linkedlist list = new Linkedlist();
+            list.Addreverse(10);
+            list.Addreverse(20);
+            list.Addreverse(30);
             list.Display();
+
+
+
         }
     }
 }

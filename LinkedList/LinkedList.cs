@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LinkedList;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,12 +7,13 @@ using System.Threading.Tasks;
 
 namespace LinkedList
 {
-    internal class LinkedList
+    internal class Linkedlist
     {
         Node head;
         public void Addnode(int data)
         {
             Node node = new Node(data);
+
 
             if (head == null)
             {
@@ -51,7 +53,21 @@ namespace LinkedList
 
             }
         }
+        public void Addreverse(int data)
+        {
+            Node node = new Node(data);
+            if (head == null)
+            {
+                head = node;
+            }
+            else
+            {
+                Node temp = head;
+                head = node;
+                head.Next = temp;
+
+            }
+
+        }
     }
 }
-    
-
