@@ -11,7 +11,8 @@
             que.Enqueue(30);
             que.Enqueue(40);
             que.Display();
-
+            que.Dequeue();
+            que.Display();
         }
     }
 }
