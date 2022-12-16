@@ -10,7 +10,7 @@
             list.Addnode(20);
             list.Addnode(30);
             list.Display();
-            list.Delete();
+            list.DeleteLast();
             list.Display();
 
 
