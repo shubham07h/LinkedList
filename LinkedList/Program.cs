@@ -17,7 +17,8 @@
             stack_.Push(20);
             stack_.Push(30);
             stack_.Display();
-
+            stack_.Pop();
+            stack_.Display();
 
         }
     }
